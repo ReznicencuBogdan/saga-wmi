@@ -1,0 +1,48 @@
+VFP9R.DLL	URLDownloadToCacheFileA ( NULL, "https://...", "", 260, 0, NULL )	S_OK		0.2225925
+
+6BAD1BFF | 894424 08             | mov dword ptr ss:[esp+8],eax                          | [esp+8]:"... C&dt=31.12.2021 01:30"
+
+uxtheme.dll	DrawTextExW ( 0x1d011649, "Activare update", 15, 0x0019f0d4, DT_CALCRECT, NULL )
+VFP9R.DLL	DrawTextA ( 0x43011830, "&Accept", -1, 0x0019de0c, DT_SINGLELINE | DT_VCENTER )	14		0.0002596
+gdi32full.dll	ExtTextOutW ( 0x0a011819, 30, 12, ETO_GLYPH_INDEX, NULL, "$sasdsa", 15, 0x0069dd8c )	TRUE		0.0000021
+VFP9R.DLL	GetTextExtentPoint32A ( 0x43011830, "Accept", 6, 0x0019dc58 )	TRUE
+VFP9R.DLL	GetTextExtentPoint32A ( 0x43011830, "Stocuri", 7, 0x0019dccc )	TRUE
+gdi32full.dll	ExtTextOutW ( 0x43011830, 265, 172, ETO_GLYPH_INDEX, NULL, "HHHHHHHH?", 7, 0x0069dcbc )	TRUE		0.0000003
+VFP9R.DLL	GetTextExtentPoint32A ( 0x43011830, "77     0", 8, 0x0019e994 )	TRUE
+VFP9R.DLL	ExtTextOutA ( 0xea01177d, 376, 143, ETO_CLIPPED | ETO_OPAQUE, 0x0019ebdc, "77 77 77", 8, NULL )	TRUE		0.0000174
+
+
+VFP9R.DLL	_stricmp ( "internetstatus", "InternetGetConnectedState" )	1		0.0000018
+VFP9R.DLL	_stricmp ( "internetstatus", "RegCreateKey" )	-1		0.0000023
+VFP9R.DLL	strrchr ( "wininet.Dll", 92 )	NULL		0.0000003
+VFP9R.DLL	_stricmp ( "furnizor.sct", "wininet.Dll" )	-1		0.0000008
+VFP9R.DLL	_stricmp ( "facturi.scx", "wininet.Dll" )	-1		0.0000007
+VFP9R.DLL	_stricmp ( "reg_gen.scx", "wininet.Dll" )	-1		0.0000008
+VFP9R.DLL	_stricmp ( "facturi.sct", "wininet.Dll" )	-1		0.0000008
+VFP9R.DLL	_stricmp ( "registru1.scx", "wininet.Dll" )	-1		0.0000008
+VFP9R.DLL	_stricmp ( "proc.fxp", "wininet.Dll" )	-1		0.0000009
+VFP9R.DLL	_stricmp ( "admin.scx", "wininet.Dll" )	-1		0.0000006
+VFP9R.DLL	_stricmp ( "admin.sct", "wininet.Dll" )	-1		0.0000008
+VFP9R.DLL	strchr ( "cRequest = "https:// .. ?program="+programSaga+"&dt="+TTOC(DATETIME())", 38 )	0x0019bd00		0.0000001
+
+
+VFP9R.DLL	URLDownloadToCacheFileA ( NULL, "https://...", "", 260, 0, NULL )	S_OK		0.3435202
+VFP9R.DLL	URLDownloadToCacheFileA ( NULL, "https://...", "", 260, 0, NULL )	S_OK		0.2115436
+...\Local\Microsoft\Windows\INetCache\IE\...
+
+
+"winmgmts:{impersonationLevel=Impersonate}! //." SELECT Model,DeviceID FROM Win32_DiskDrive
+
+Fastprox.dll 
+Wbemcomn.dll
+Wbemsvc.dll
+
+
+SELECT Model,DeviceID FROM Win32_DiskDrive
+SELECT * FROM Win32_PhysicalMedia where Tag="\\\\.\\PHYSICALDRIVE0"
+SELECT * FROM Win32_PhysicalMedia where Tag="\\\\.\\PHYSICALDRIVE1"
+Select * from Win32_BaseBoard
+Select * from Win32_NetworkAdapter
+Select * from Win32_Processor
+SELECT * FROM Win32_PhysicalMedia where Tag="\\\\.\\PHYSICALDRIVE0"
+SELECT * FROM Win32_PhysicalMedia where Tag="\\\\.\\PHYSICALDRIVE1"
